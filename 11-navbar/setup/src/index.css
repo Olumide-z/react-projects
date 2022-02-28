@@ -205,6 +205,7 @@ nav {
     display: none;
   }
   .links-container {
+    /* always do this in the media query because of the useRef method we used */
     height: auto !important;
   }
   .links {
